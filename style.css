@@ -1,0 +1,64 @@
+*,::after,::before{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    min-width: 400px;
+
+}
+.containair{
+    text-align: center;
+}
+#title{
+    color: whitesmoke;
+    font-size: 3em;
+    text-align: center;
+    margin: 100px 0 20px 0;
+
+
+}
+#nomVille{
+    color: white;
+    font-size: 2em;
+    font-family: "Arial Black";
+    background-color: cornflowerblue;
+    width: 300px;
+    margin: 0px auto;
+    text-transform: capitalize
+}
+
+.containair-resultat{
+    margin:40px 0px;
+    font-size: 4em;
+
+
+}
+#meteoDelaVille{
+    color: white;
+}
+
+#changeVille{
+    background-color: rgba(36, 172, 200, 0.09);
+    font-family: "Constantia";
+    font-size: 20px;
+    width: 250px;
+    padding: 11px 20px;
+    margin: 0 auto ;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+#changeVille:hover{
+    background-color: cornflowerblue;
+    color: white;
+
+}
